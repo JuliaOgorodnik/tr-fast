@@ -1,0 +1,4 @@
+old travis.yml:
+language: node_js
+script:
+  - echo 'OK'
