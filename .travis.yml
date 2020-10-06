@@ -1,4 +1,4 @@
 language: node_js
 script:
-  await sleep(60)
+  - await sleep(60)
   - echo 'OK'
