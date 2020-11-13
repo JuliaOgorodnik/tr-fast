@@ -2,8 +2,6 @@ sudo: false
 
 jobs:
   include:
-    - name: OSX
-      os: osx
     - stage: unit tests
       script: echo one
     - stage: unit tests
