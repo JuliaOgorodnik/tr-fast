@@ -1,10 +1,13 @@
 language: node_js
 
 jobs:
+
   include:
-    - name: OSX
+   - name: Linux
+     os: linux
+   - name: OSX
      os: osx
       
 script:
   - echo 'OK'
-  sleep 120
+  - sleep 120
