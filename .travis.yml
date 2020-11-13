@@ -5,8 +5,6 @@ jobs:
   include:
    - name: Linux
      os: linux
-   - name: Windows
-     os: win
    - name: OSX
      os: osx
       
