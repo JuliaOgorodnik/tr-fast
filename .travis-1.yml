@@ -1,0 +1,10 @@
+language: node_js
+
+jobs:
+  include:
+    - name: OSX
+      os: osx
+      
+script:
+  - echo 'OK'
+  sleep 120
