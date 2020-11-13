@@ -4,7 +4,7 @@ jobs:
   include:
     - name: Windows
       os: win
-    name: Linux
+    - name: Linux
       os: linux
     - name: OSX
       os: osx
