@@ -2,10 +2,10 @@ language: node_js
 
 jobs:
   include:
-    - name: Linux
-      os: linux
-    - name: OSX
-      os: osx
+   - name: Linux
+     os: linux
+   - name: OSX
+     os: osx
       
 script:
   - echo 'OK'
