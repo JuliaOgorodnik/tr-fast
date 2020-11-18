@@ -9,5 +9,6 @@ jobs:
      os: osx
       
 script:
-  - echo 'OK'
   - sleep 120
+  - echo 'OK'
+  
