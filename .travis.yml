@@ -8,5 +8,7 @@ env:
   - INDEX=5
 
 script: 
-  - sleep 1200
+  - sleep 600
+  - echo 'OK'
+  - sleep 600
   - echo 'OK'
