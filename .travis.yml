@@ -1,16 +1,14 @@
-os: linux
+language: node_js
 
-env:
-  - INDEX=1
-  - INDEX=2
-  - INDEX=3
-  - INDEX=4
-  - INDEX=5
-
-script: 
-  - sleep 500
-  - echo 'OK'
-  - sleep 500
+jobs:
+  include:
+    - name: Windows
+      os: win
+      
+vm:
+  size: 2x-large
+    
+script:
   - echo 'OK'
   - sleep 500
   - echo 'OK'
