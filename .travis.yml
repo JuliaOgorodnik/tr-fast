@@ -3,10 +3,10 @@ language: node_js
 node_js:
   - 6
 
-os: windows
+os: osx
 
 vm:
-  size: 2x-large
+  size: medium
     
 script:
   - echo 'OK'
