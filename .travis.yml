@@ -1,5 +1,7 @@
 language: node_js
 
+os: osx
+
 jobs:
   include:
     - name: OSX
