@@ -6,7 +6,7 @@ jobs:
       os: linux
       
 vm:
-  size: large
+  size: x-large
     
 script:
   - echo 'OK'
