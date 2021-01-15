@@ -3,7 +3,7 @@ language: node_js
 jobs:
   include:
     - name: OSX
-      os: osx
+    - os: osx
       
 vm:
   size: medium
