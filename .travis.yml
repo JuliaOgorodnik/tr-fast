@@ -2,11 +2,11 @@ language: node_js
 
 jobs:
   include:
-    - name: Linux
-      os: linux
+    - name: OSX
+      os: osx
       
 vm:
-  size: 2x-large
+  size: medium
     
 script:
   - echo 'OK'
