@@ -7,5 +7,5 @@ os: LXD
   
 script:
   - echo 'OK'
-  - sleep 50
+  - sleep 25
   - echo 'OK'
