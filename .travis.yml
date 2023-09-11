@@ -1,11 +1,14 @@
 language: ruby
-rvm:
-  - 2.2
-  - jruby
-deploy:
-  provider: S3
-  cleanup: true
+dist: xenial
+vm:
+  - size: gpu-medium
+jobs:
+
+  include:
+   - name: Linux
+   - os: linux
+
 script:
-  - echo 'OK'
+  - lspci
   - sleep 25
   - echo 'OK'
