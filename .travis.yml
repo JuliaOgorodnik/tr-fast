@@ -1,7 +1,5 @@
 language: ruby
 dist: xenial
-vm:
-  - size: gpu-medium
 jobs:
 
   include:
@@ -9,6 +7,5 @@ jobs:
    - os: linux
 
 script:
-  - lspci
   - sleep 25
   - echo 'OK'
