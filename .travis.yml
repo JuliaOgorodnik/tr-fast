@@ -1,13 +1,12 @@
 language: ruby
-cache: bundler
-services:
-  - docker
-dist: xenial
 jobs:
-
   include:
-   - name: Linux
-   - os: linux
+  - rvm: 2.5
+    gemfile: gemfiles/Gemfile.rails-3.2.x
+    env: ISOLATED=false
+  - rvm: 2.2
+    gemfile: gemfiles/Gemfile.rails-3.0.x
+    env: ISOLATED=true
 
 script:
   - sleep 25
