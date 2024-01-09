@@ -1,12 +1,6 @@
 language: ruby
-cache: bundler
-dist: xenial
-jobs:
 
-  include:
-   - name: Linux
-   - os: linux
-
+services:
+  - docker
 script:
-  - sleep 25
-  - echo 'OK'
+- bundle exec rake test
