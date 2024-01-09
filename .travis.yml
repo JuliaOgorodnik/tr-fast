@@ -22,19 +22,3 @@ jobs:
         app: sf-stages-production
     - stage: test production
       script: 'curl http://sf-stages-production.herokuapp.com/'
-      
-      
-      --------
-      
-      os: linux
-
-env:
-  - INDEX=1
-  - INDEX=2
-  - INDEX=3
-  - INDEX=4
-  - INDEX=5
-
-script: 
-  - sleep 25
-  - echo 'OK'
