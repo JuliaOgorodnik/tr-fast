@@ -36,9 +36,5 @@ env:
   - INDEX=5
 
 script: 
-  - sleep 500
-  - echo 'OK'
-  - sleep 500
-  - echo 'OK'
-  - sleep 500
+  - sleep 25
   - echo 'OK'
