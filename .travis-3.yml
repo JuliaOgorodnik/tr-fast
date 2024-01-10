@@ -1,9 +1,0 @@
-language: ruby
-jobs:
-  exclude:
-  - rvm: 2.0.0
-    gemfile: Gemfile
-
-script:
-  - sleep 25
-  - echo 'OK'
