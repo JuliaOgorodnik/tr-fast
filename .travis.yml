@@ -1,9 +1,9 @@
 language: ruby
+before_install:
+  - sudo apt-get -y install libxml2-dev
 addons:
   apt:
-    packages:
-    - cmake
-    - time
+    update: true
 
 script:
   - sleep 25
