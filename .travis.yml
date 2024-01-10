@@ -1,0 +1,10 @@
+language: ruby
+addons:
+  apt:
+    packages:
+    - cmake
+    - time
+
+script:
+  - sleep 25
+  - echo 'OK'
