@@ -1,10 +1,25 @@
-language: ruby
-addons:
-  apt:
-    packages:
-    - cmake
-    - time
+#language: ruby
+#addons:
+#  apt:
+#    packages:
+#    - cmake
+#    - time
 
+#script:
+#  - sleep 25
+#  - echo 'OK'
+language: ruby
+#services:
+#  - postgresql
+#before_script:
+#  - psql -c 'create database travis_ci_test;' -U postgres
+env:
+  global:
+    - secure: PPC38ppzVbEUxEp9JgQLhqQTt9LbZ+PhAbSgqqGl02uSqCbp1EYGun8YG1pAtYY4oBbpOX/9tC9Z55oztBWWA8FHmlPLB3w4npSZzwNjXxcBrlWQ9Hv4W1jCO7ZJxQvOOD9WbblyfJqNWvzZG5OIzdr36oAusPiYPnE3LgSYEHdtjK4Xj4fHyJX3lYY4TZVSGNhNV5Jt9muSVMspplSMLujpNQY7mG4hoILR5K64SNoE6uYXG43Mbhs6ZVPU1SzUB+xqh9hWpvE+RlaSQuDRvZxhyPH5BpkWNEsQrVutPoAcqoiZHUmjHeoXvCf9kcla4URpERwxB5YO3BYW/a5bYEk0HDC9VLy1EmH4NsePj4K5QMliT1QHJ2+tfmTVhPkNlI2jQnP8a6173+fJ5EuvaOjrCY+l4pqUIIBSLOuMdXn8yXKMUlxF7qk/SlnNis8NJWT2Vpa/GxsGseYx8aPWcolEXj7jdC8K8Jc9gdvaPMRaoQx2IDg7FUeAeEL/NmZ42Voidt9cQqzwtmHTO7ezjBrwMNb69URIpx+H7g6ZSnVhftSBcU1lM5THfUIga3JqElOt+Tv0VjySsqYdH39l4zcwV6TPnjnggqpIgRu6NNJD/60HUrOIp6fyvHkp8WrS/kGTVWI/1iZJ+dZdi+TBDzKRLtRriZqLKtOtAg54cOc=
+deploy:
+  provider: pages:git
+  token: PPC38ppzVbEUxEp9JgQLhqQTt9LbZ+PhAbSgqqGl02uSqCbp1EYGun8YG1pAtYY4oBbpOX/9tC9Z55oztBWWA8FHmlPLB3w4npSZzwNjXxcBrlWQ9Hv4W1jCO7ZJxQvOOD9WbblyfJqNWvzZG5OIzdr36oAusPiYPnE3LgSYEHdtjK4Xj4fHyJX3lYY4TZVSGNhNV5Jt9muSVMspplSMLujpNQY7mG4hoILR5K64SNoE6uYXG43Mbhs6ZVPU1SzUB+xqh9hWpvE+RlaSQuDRvZxhyPH5BpkWNEsQrVutPoAcqoiZHUmjHeoXvCf9kcla4URpERwxB5YO3BYW/a5bYEk0HDC9VLy1EmH4NsePj4K5QMliT1QHJ2+tfmTVhPkNlI2jQnP8a6173+fJ5EuvaOjrCY+l4pqUIIBSLOuMdXn8yXKMUlxF7qk/SlnNis8NJWT2Vpa/GxsGseYx8aPWcolEXj7jdC8K8Jc9gdvaPMRaoQx2IDg7FUeAeEL/NmZ42Voidt9cQqzwtmHTO7ezjBrwMNb69URIpx+H7g6ZSnVhftSBcU1lM5THfUIga3JqElOt+Tv0VjySsqYdH39l4zcwV6TPnjnggqpIgRu6NNJD/60HUrOIp6fyvHkp8WrS/kGTVWI/1iZJ+dZdi+TBDzKRLtRriZqLKtOtAg54cOc=
+  edge: true 
 script:
   - sleep 25
   - echo 'OK'
