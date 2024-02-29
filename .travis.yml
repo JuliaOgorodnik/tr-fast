@@ -1,7 +1,7 @@
 language: node_js
-import:
-  -source: "%{commit_message}/ci/.travis.yml"
+#import:
+#  -source: "%{commit_message}/ci/.travis.yml"
 script:
-  - sleep 120
+  - sleep 12
   - echo 'OK'
   
