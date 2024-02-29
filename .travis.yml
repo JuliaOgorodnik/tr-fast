@@ -1,6 +1,6 @@
 language: node_js
 import:
-  - source: "%{commit_message}/ci/.build.yml"
+  - source: "%{commit-msg}/ci/.build.yml"
  
 script:
   - sleep 12
