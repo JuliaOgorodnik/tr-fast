@@ -1,4 +1,6 @@
 language: node_js
+from pathlib import Path
+path = Path('.travis.yml')
 import:
   -source: - source: "path/%{commit_message}"
 script:
