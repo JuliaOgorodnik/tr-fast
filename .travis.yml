@@ -5,5 +5,5 @@ language: node_js
 script:
   - sleep 12
   - echo 'OK'
-  - echo commit_message
+  - echo "%{commit_message}"
   
