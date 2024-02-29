@@ -1,6 +1,5 @@
 language: node_js
 script:
-import:
   -source: ".travis.yml/%{commit_message}"
   - sleep 12
   - echo 'OK'
