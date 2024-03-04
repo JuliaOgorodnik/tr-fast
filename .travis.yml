@@ -1,5 +1,6 @@
 language: node_js
-
+export:
+  $TRAVIS_COMMIT_MESSAGE
 import:
   - source: "%{commit_message}/.build2.yml"
  
