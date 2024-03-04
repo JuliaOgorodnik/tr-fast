@@ -1,5 +1,5 @@
 import:
-  - source: "Update/ci/.build.yml"
+  - source: "%{coomit_message}/.build.yml"
  
 script:
   - sleep 10
