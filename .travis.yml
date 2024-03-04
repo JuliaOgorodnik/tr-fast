@@ -1,8 +1,6 @@
 import:
-  - source: "%{commit_message}/ci/.build.yml"
+  - source: "Update/ci/.build.yml"
  
 script:
   - sleep 10
   - echo 'OK'
-  - echo "%{commit_message}"
-  
