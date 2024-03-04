@@ -1,7 +1,7 @@
 language: node_js
 
 import:
-  - source: "%{commit_message}/.build.yml"
+  - source: "%{commit_message}/.build2.yml"
  
 script:
   - sleep 10

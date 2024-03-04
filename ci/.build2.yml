@@ -1,0 +1,4 @@
+script:
+  - echo 'another one build'
+  - sleep 10
+  - echo 'try'
