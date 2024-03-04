@@ -3,7 +3,7 @@ import:
   - source: "%{commit_message}/ci/.build.yml"
  
 script:
-  - sleep 12
+  - sleep 10
   - echo 'OK'
   - echo "%{commit_message}"
   
