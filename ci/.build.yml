@@ -2,4 +2,4 @@ language: node_js
 
 script:
   - sleep 10
-  - echo 'commit another file'
+  - echo 'try'
