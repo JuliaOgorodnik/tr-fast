@@ -2,7 +2,8 @@ language: node_js
 
 #import:
 #  - source: "%{coomit_message}/.build.yml"
- 
+import:
+  - source: "path/.travis.yml"
 script:
   - sleep 10
   - echo 'OK'
