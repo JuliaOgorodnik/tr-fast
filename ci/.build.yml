@@ -1,5 +1,5 @@
 language: node_js
 
 script:
-  - sleep 15
-  - echo 'another file'
+  - sleep 10
+  - echo 'commit another file'
