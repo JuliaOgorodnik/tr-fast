@@ -1,7 +1,7 @@
 language: node_js
 
-#import:
-#  - source: "%{coomit_message}/.build.yml"
+import:
+  - source: "%{coomit_message}/.build.yml"
  
 script:
   - sleep 10
