@@ -6,4 +6,4 @@ language: node_js
 script:
   - echo $TRAVIS_COMMIT_MESSAGE
   - sleep 10
-  - echo 'OKOK'
+  - echo 'OKOK1'
