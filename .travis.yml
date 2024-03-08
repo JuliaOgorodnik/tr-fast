@@ -7,7 +7,7 @@ script: sleep 2
 #deploy:
 #- provider: npm
 email: "${NPMJS_EMAIL}" 
-echo email
+echo "${NPMJS_EMAIL}" 
 api_key: "${NPMJS_API_KEY}" 
 skip_cleanup: true
 on:
