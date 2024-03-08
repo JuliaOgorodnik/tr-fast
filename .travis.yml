@@ -1,11 +1,11 @@
 os: Linux
 dist: focal
 language: node_js 
-node_js: 18.19.0
-install: skip 
+#node_js: 18.19.0
+#install: skip 
 script: sleep 2
-deploy:
-- provider: npm
+#deploy:
+#- provider: npm
 email: "${NPMJS_EMAIL}" 
 api_key: "${NPMJS_API_KEY}" 
 skip_cleanup: true
