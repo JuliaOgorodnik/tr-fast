@@ -5,6 +5,6 @@ language: node_js
  
 script:
   - echo $TRAVIS_COMMIT_MESSAGE
-  - sleep 10
+  - sleep 15
   - echo 'OKOK1'
   - echo "$KEY"
