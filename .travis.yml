@@ -1,5 +1,5 @@
 #example stages
-language: node-js
+language: ruby
 jobs:
   include:
     - stage: test
