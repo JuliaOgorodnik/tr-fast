@@ -1,5 +1,6 @@
 language: ruby
-cache: bundler
+cache:
+  bundler: true
 
 #import:
 #  - source: "%{commit_message}/.build2.yml"
