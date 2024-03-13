@@ -7,4 +7,3 @@ script:
   - echo $TRAVIS_COMMIT_MESSAGE
   - sleep 15
   - echo 'OKOK1'
-  - echo "$KEY"
