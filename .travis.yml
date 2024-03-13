@@ -16,7 +16,8 @@ env:
 addons:
   snaps:
     - hugo
-
+before_install:
+  - sudo apt-get -y install libxml2-dev
 install: skip
 jobs:
   include:
