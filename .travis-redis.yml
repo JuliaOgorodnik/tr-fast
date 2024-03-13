@@ -1,16 +1,3 @@
-#language: node_js
-
-#node_js: '6'
-
-#cache: npm
-
-#import:
-#  - source: "%{commit_message}/.build2.yml"
- 
-#script:
-  #- echo $TRAVIS_COMMIT_MESSAGE
- # - sleep 15
- # - echo 'OKOK1'
 language: node_js
 node_js:
   - "12"
