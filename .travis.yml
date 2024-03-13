@@ -1,13 +1,30 @@
-language: node_js
+#language: node_js
 
-node_js: '6'
+#node_js: '6'
 
-cache: npm
+#cache: npm
 
 #import:
 #  - source: "%{commit_message}/.build2.yml"
  
-script:
+#script:
   #- echo $TRAVIS_COMMIT_MESSAGE
-  - sleep 15
-  - echo 'OKOK1'
+ # - sleep 15
+ # - echo 'OKOK1'
+language: node_js
+node_js:
+  - "12"
+
+services:
+  - redis-server
+
+before_install:
+  - sudo systemctl start redis-server
+
+install:
+  - cd $TRAVIS_BUILD_DIR
+  - npm init -y  # This creates a package.json file if it's missing
+  - npm install
+
+script:
+  - npm test
