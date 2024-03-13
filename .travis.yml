@@ -17,7 +17,7 @@ addons:
   snaps:
     - hugo
 
-#install: false
+install: skip
 jobs:
   include:
     - name: "condition with regex"
