@@ -1,0 +1,8 @@
+#example stages
+language: node-js
+jobs:
+  include:
+    - stage: test
+      script: ./a
+    - stage: test2
+      script: ./a-1
