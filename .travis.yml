@@ -3,6 +3,8 @@ language: ruby
 jobs:
   include:
     - stage: test
-      script: ./a
+      script: 
+        - echo "Stage 1"
     - stage: test2
-      script: ./a-1
+      script:
+        - echo "Stage 2"
