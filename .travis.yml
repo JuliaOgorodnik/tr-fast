@@ -17,7 +17,7 @@ addons:
   snaps:
     - hugo
 
-install: sudo snap install hugo
+install: false
 jobs:
   include:
     - name: "condition with regex"
