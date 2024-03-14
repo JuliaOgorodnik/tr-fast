@@ -1,7 +1,7 @@
 #simple yml with cache
 language: node_js
 
-node_js: '6' # or another
+node_js: '12.14' # or another
 
 cache: npm
 script:
