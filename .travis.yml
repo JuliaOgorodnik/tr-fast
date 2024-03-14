@@ -1,0 +1,6 @@
+#simple yml with cache
+language: ruby
+cache: bundler
+script:
+  - sleep 2
+  - echo "OK"
