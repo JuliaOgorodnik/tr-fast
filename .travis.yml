@@ -1,7 +1,8 @@
 #simple yml
-language: node_js
+language: ruby
 before_install:
   - openssl aes-256-cbc -K $encrypted_e3418cf212aa_key -iv $encrypted_e3418cf212aa_iv -in supersecret.txt.enc -out supersecret.txt -d
+install: skip
 script:
   - sleep 2
   - echo "OK"
