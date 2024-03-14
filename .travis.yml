@@ -4,5 +4,5 @@ cache: bundler
 include: 
   gemfile: gemfiles/Gemfile.rails-3.2.x
 script:
-  - sleep 2
+  - sleep 12
   - echo "OK"
