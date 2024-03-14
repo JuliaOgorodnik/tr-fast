@@ -1,10 +1,7 @@
 #example matrix
-rvm:
-- 1.9.3
-- 2.0.0
-gemfile:
-- gemfiles/Gemfile.rails-3.2.x
-- gemfiles/Gemfile.rails-3.0.x
-env:
-- ISOLATED=true
-- ISOLATED=false
+language: python
+python:
+  - '3.8'
+jobs:
+  include:
+    - env: EXTRA_TESTS=true
