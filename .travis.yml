@@ -1,6 +1,8 @@
 #simple yml with cache
 language: ruby
 cache: bundler
+include: 
+  gemfile: gemfiles/Gemfile.rails-3.2.x
 script:
   - sleep 2
   - echo "OK"
