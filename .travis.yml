@@ -1,8 +1,9 @@
 #simple yml with cache
-language: ruby
-cache: bundler
-include: 
-  gemfile: gemfiles/Gemfile.rails-3.2.x
+language: node_js
+
+node_js: '6' # or another
+
+cache: npm
 script:
   - sleep 12
   - echo "OK"
