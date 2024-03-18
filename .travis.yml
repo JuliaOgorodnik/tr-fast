@@ -6,5 +6,5 @@ SECRET_KEY: "some key"
 #install: skip
 script:
   - echo $SECRET_KEY
-  - sleep 2
+  - sleep 12
   - echo "OK"
