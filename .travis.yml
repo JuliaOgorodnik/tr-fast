@@ -1,8 +1,10 @@
 #simple yml with encrypted
 language: ruby
-before_install:
-  - openssl aes-256-cbc -K $encrypted_e3418cf212aa_key -iv $encrypted_e3418cf212aa_iv -in supersecret.txt.enc -out supersecret.txt -d
-install: skip
+SECRET_KEY="eNX8mpgft+JiTP4q/gnNDqFb5eCX99IMb8p2mvrLxlzUxlEZwz7u40lnwbOrWQTOhADtdNMpW2criQhHvHZpxz5ffTRchMf3xl8C+ir6/hjXcLdjeLUotZp3osGUtJIKYr+CrJ8f0KPKLbnU1H/6M4n3LWx5EsWy7q1wSFKTmCbTIAIkVnjhRy/zsNf0sM33cVJIn0QOWfvPUkvg7nvzU+0xkG2vCd9hCX0EioBBlHQtmiCzdqETMtM82u9oj1AiH30iypOcvH46z9RvdsRHIwsPQOanDJtvEtNNndjLiFGLTy6K/EPL1om/vQ8DeRyDQNqc2I3Qv2kvR/+u6zOhMPWcuJYHldoY9l1MZ+GPnzNamOl5faYOoJgZh3aiXieXX7eKfUDAvHIzzj4YGHtGEszzU0EswB0OpAM1IfuR1JNhNtVttt9rw/jkAj55leASKTATQBG123ZU/oUtiYHMAoWBuHcBjhZDrWS8fv29cGDOTZQ6WQDeG7lQ1Vhtk5HAewuSI8K0moPymldNEtqiiKji8nmA11dH4VDpcByhIbqKC9sD72hL0Kd2m+1NHCS0GC8Io8Zqcuiej6fKA8UK+BvNI1NM5RDD2xm3b2sFCmP9dZQdNw2/0EW2ij72EmEFxNW6TFDjON2nVrzvTL2G+bZCVUNawrqltXFvvOop1QA="
+#before_install:
+#  - openssl aes-256-cbc -K $encrypted_e3418cf212aa_key -iv $encrypted_e3418cf212aa_iv -in supersecret.txt.enc -out supersecret.txt -d
+#install: skip
 script:
+  - echo $SECRET_KEY
   - sleep 2
   - echo "OK"
