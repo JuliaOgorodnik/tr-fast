@@ -1,5 +1,7 @@
 #example dependabot
 language: node_js
+node_js: '12.14' # or another
+
 jobs:
   dependabot:
     package_manager: "ruby:bundler"
