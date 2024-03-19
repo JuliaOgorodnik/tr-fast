@@ -1,0 +1,9 @@
+{
+  "fileMatch": [
+    "^\\.travis\\.ya?ml$"
+  ],
+  "major": {
+    "enabled": false
+  },
+  "versioning": "node"
+}
