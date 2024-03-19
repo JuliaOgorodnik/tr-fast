@@ -1,0 +1,9 @@
+#simple yml with cache
+language: node_js
+
+node_js: '12.14' # or another
+
+cache: npm
+script:
+  - sleep 12
+  - echo "OK"
