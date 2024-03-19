@@ -1,7 +1,6 @@
 #example dependabot
 language: ruby
-script:
-  jobs:
-    dependabot:
-      package_manager: "ruby:bundler"
-      update_schedule: "live"
+jobs:
+  dependabot:
+    package_manager: "ruby:bundler"
+    update_schedule: "live"
