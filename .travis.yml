@@ -1,5 +1,5 @@
 #example dependabot
-language: ruby
+language: node_js
 jobs:
   dependabot:
     package_manager: "ruby:bundler"
