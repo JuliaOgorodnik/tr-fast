@@ -1,7 +1,13 @@
-language: node_js
-
-node_js: '12.14'
-
-script:
-  - sleep 15
-  - echo 'OKI8'
+os: Linux
+dist: focal
+language: node_js 
+node_js: 18.19.0
+install: skip 
+script: sleep 2
+deploy:
+- provider: npm
+email: "${NPMJS_EMAIL}" 
+api_key: "${NPMJS_API_KEY}" 
+skip_cleanup: true
+on:
+tags: true
