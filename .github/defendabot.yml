@@ -1,6 +1,6 @@
 ---
 version: 2
-updates:
+deploy:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
