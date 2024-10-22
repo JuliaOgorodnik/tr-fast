@@ -3,5 +3,5 @@ language: node_js
 node_js: '12.14'
 
 script:
-  - sleep 65
+  - sleep 15
   - echo 'OKI8'
