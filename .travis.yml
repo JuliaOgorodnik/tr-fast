@@ -2,6 +2,11 @@ os: linux
 dist: focal
 vm: 
   create:
-    name: custom_julia_example
+    name: custom_julia_example_one
+before_install:
+  - sudo apt-get -y install libxml2-dev
+addons:
+  apt:
+    update: true
 script:
   - echo "OK8"
