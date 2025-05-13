@@ -4,4 +4,4 @@ vm:
   create:
     name: custom_julia_example
 script:
-  - echo "OK"
+  - echo "OK8"
