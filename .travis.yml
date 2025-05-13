@@ -1,8 +1,7 @@
 os: linux
 dist: focal
 vm: 
-  size: [large]
-create:
-name: "custome_example"
+  create:
+    name: "custome_example"
 script:
   - echo "OK"
