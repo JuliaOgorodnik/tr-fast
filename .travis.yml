@@ -2,6 +2,6 @@ os: linux
 dist: focal
 vm: 
   create:
-    name: custome_example
+    name: custom_julia_example
 script:
   - echo "OK"
