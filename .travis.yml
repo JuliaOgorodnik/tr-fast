@@ -1,0 +1,14 @@
+os: linux
+dist: focal
+vm: 
+  size: [large]
+create:
+name: custome_example
+before_install:
+
+sudo apt-get -y install libxml2-dev
+addons:
+apt:
+update: true
+script:
+  - echo "OK"
